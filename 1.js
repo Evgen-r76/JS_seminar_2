@@ -1,8 +1,8 @@
 "use strict";
 
 //1. Получите ссылку на первый абзац из дива с id, равным block, выведите его в консоль
-// const first = document.querySelector('div#block > p');
-// // console.log(first.innerHTML);
+const first = document.querySelector('div#block > p');
+console.log(first.innerHTML);
 
 // // 2. Получите ссылку на первый абзац с классом www. и вывести его в консоль
 // const www = document.querySelector("div#block > p.www");
